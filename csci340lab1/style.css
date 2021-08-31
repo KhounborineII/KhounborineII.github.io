@@ -4,6 +4,7 @@ body {
 
 header {
   padding: 10px 0px;
+  border: 2px solid black;
 }
 
 header .row,
@@ -32,21 +33,20 @@ header p {
   justify-content: center;
   font-weight: 600;
   align-items: center;
-  color: silver;
   margin-top: 30px;
 }
 
 #description h3{
-  color: silver;
   text-shadow: 0.5px 0.5px 0.5px #000000;
+  font-family: sans;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
   background-size: cover;
-  background-color: white;
-  border: 2px dotted #000;
+  background-color: lightgray;
+  border: 2px solid #000;
   text-shadow: 0.5px 0.5px 0.5px #000000;
   margin-top: 20px;
 }
@@ -58,13 +58,13 @@ header p {
 }
 
 .jumbotron h4 {
-  margin: 10 0px 20px 0px;
+  margin: 0px 0px 20px;
   color: hotpink;
 }
 
 #second h2{
   margin-top: 20px;
-  color: green;
+  color: purple;
 }
 
 section .row img {
@@ -75,6 +75,12 @@ section .row img {
 
 section .row h3 {
   color: black;
+}
+
+#elite h3{
+  color: purple;
+  font-weight: 700;
+  text-shadow: 0.25px 0.25px 0.25px black;
 }
 
 .btn.btn-primary {
