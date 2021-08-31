@@ -3,8 +3,7 @@ body {
 }
 
 header {
-  padding: 10px 0;
-  width: 100%;
+  padding: 10px 0px;
 }
 
 header .row,
@@ -15,7 +14,7 @@ footer .row {
 
 header h1 {
   font-weight: 700;
-  margin: 0;
+  margin: 0px;
 }
 
 header nav {
@@ -25,7 +24,7 @@ header nav {
 
 header p {
   padding: 0px 20px;
-  margin: 0;
+  margin: 0px;
 }
 
 #description {
@@ -48,7 +47,6 @@ header p {
   background-size: cover;
   background-color: white;
   border: 2px dotted #000;
-  color: white;
   text-shadow: 0.5px 0.5px 0.5px #000000;
   margin-top: 20px;
 }
@@ -81,7 +79,7 @@ section .row h3 {
 
 .btn.btn-primary {
   border-radius: 2px;
-  border: 1px line black;
+  border: 1px solid black;
   color: black;
   text-shadow: none;
   background-color: lightgreen;
