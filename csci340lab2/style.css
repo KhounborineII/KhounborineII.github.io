@@ -3,7 +3,7 @@ body {
   background-color: lightyellow;
 }
 
-header {
+header .contanier {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
